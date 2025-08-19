@@ -67,25 +67,6 @@ Middleware:
  * Protects admin-only routes
 
 
-todoApp-api/
-├── server.js # Main server file
-├── package.json # Node.js dependencies & scripts
-├── .env # Environment variables
-│
-├── models/ # Database schemas
-│ ├── userModel.js # User schema
-│ └── taskModel.js # Task schema
-│
-├── controllers/ # Route controllers
-│ ├── userController.js # Handles user registration, login, logout
-│ └── taskController.js # Handles CRUD operations for tasks
-│
-├── middlewares/ # Custom middleware
-│ ├── authMiddleware.js # JWT authentication
-│ └── adminMiddleware.js # Admin role authorization
-│
-└── utility/ # Utility functions
-└── tokenUtility.js # JWT encode/decode helper
 
 
 Notes:
