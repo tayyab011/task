@@ -17,7 +17,7 @@ Server will run at http://localhost:5050
 
 | Variable     | Description                       |
 | ------------ | --------------------------------- |
-| PORT         | Server port (default: 5000)       |
+| PORT         | Server port  5050                 |
 | MONGO_URI    | MongoDB connection URI            |
 | JWT_SECRET   | Secret key for signing JWT tokens |
 
@@ -31,8 +31,8 @@ Server will run at http://localhost:5050
 | Method | Endpoint        | Description                     | Request Body                                  |
 | ------ | --------------- | ------------------------------- | --------------------------------------------- |
 | POST   | /api/register   | Register a new user             | { fullName, email, mobile, password, role }   |
-| POST   | /api/login      | Login user and return JWT token | { email, password }                           |
-| GET    | /api/logout     | Logout user (clear cookie)      |                                               |
+| POST   | /api/login      | Login user and return JWT token | { email, password }                            
+                                         
 
 
 
